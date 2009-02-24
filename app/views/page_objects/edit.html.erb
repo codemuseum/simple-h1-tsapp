@@ -1,0 +1,6 @@
+<% stylesheets 'simple-h1', 'simple-h1-edit' -%>
+<% # javascripts 'prototype', 'effects', 'dragdrop', 'assets' -%>
+
+<% fields_for_page_object do |f| %>
+<h1><%= f.label :header %><%= f.text_field :header %></h1>
+<% end %>

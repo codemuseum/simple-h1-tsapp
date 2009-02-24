@@ -1,0 +1,2 @@
+.app-simple-h1 h1 {text-align:center; margin:0; padding:0; padding-bottom:8px;}
+body.displaying-page.action-edit .app-simple-h1 h1.empty-header { height: 12px; border:1px dotted gray;}
